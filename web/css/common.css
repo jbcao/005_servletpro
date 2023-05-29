@@ -1,0 +1,37 @@
+body{
+     font-size: 12px;
+     margin: 0 auto;/*边距清零，自动左右居中*/
+     width:780px ;
+ }
+/*定义几个常用的字体样式*/
+.font-style1{
+    font-weight: bold;
+}
+.font-style2{
+    font-weight: bold;
+    color: #CC0000;
+}
+.font-style3{
+    color: #FF6600;
+}
+.font-style4{
+    color: #D5A7EF;
+}
+.font-style5{
+    color: #3366DE;
+    font-weight: bold;
+}
+.font-style6{
+    color: #FF6600;
+    font-weight: bold;
+}
+/*对超链接的样式指定*/
+/*超链接没有下划线*/
+a:link{
+    text-decoration: none;
+}
+/*下划线样式*/
+.underLine-style{
+    height: 2px;
+    background-color:#CC0000;
+}

@@ -1,0 +1,149 @@
+.top {
+    width: 780px;
+    height: 202px;
+}
+
+/*普通用户首页面的中左*/
+.user-mid-left {
+    width: 215px;
+/ / height: 500 px; /*暂定*/
+    background-color: pink; /*便于看大小*/
+    float: left;
+}
+
+/*广告信息头*/
+/*相当于两个选择器一样*/
+.ad_info_title, .ad_info_search, .contact-us {
+    width: 215px;
+    height: 30px;
+    background-color: #EDEDED;
+    float: left;
+    border-top: 1px dotted black;
+    border-bottom: 1px dotted black;
+}
+
+/*这里用法需要注意一下，父子选择器也可以合并*/
+.ad_info_title span, .ad_info_search span, .contact-us span {
+    margin-left: 5px;
+    margin-top: 5px;
+    display: block;
+
+}
+
+/*广告列表*/
+.ad-info-list {
+    width: 215px;
+    height: 230px;
+    background-color: #FEFEF6;
+    float: left;
+    line-height: 16px;
+/ / 行高
+}
+
+.ad-info-list ul {
+    padding-left: 0px;
+}
+
+.ad-info-list li {
+    list-style-type: none;
+    margin-left: 10px;
+}
+
+/*信息搜索*/
+/*注意这里图片相对路径是从css算起*/
+.info-search {
+    width: 215px;
+    height: 110px;
+    background-image: url("../img/bg.jpeg");
+    float: left;
+}
+
+.info-search table {
+    margin-left: 5px;
+    margin-top: 5px;
+}
+
+.contact-info {
+    width: 215px;
+    height: 150px;
+    background-color: #FEFDF8;
+    float: left;
+}
+
+.contact-info span {
+    margin-top: 10px;
+    margin-left: 15px;
+    display: block;
+}
+
+/*中间邮编*/
+/*右浮动，中间留点空隙，更美观*/
+.user-mid-right {
+    width: 563px;
+/ / height: 500 px;
+    float: right;
+    background-color: pink;
+}
+
+/*付费专区背景图*/
+.pay-title, .free-title {
+    width: 563px;
+    height: 27px;
+    background-image: url("../img/ff.jpg");
+    float: left;
+}
+
+/*发生冲突，后面为准*/
+.free-title {
+    background-image: url("../img/free.jpg");
+
+}
+
+.pay-info-con, .free-info-con {
+    width: 563px;
+    height: 130px;
+    background-color: white;
+    float: left;
+}
+
+/*冲突，后面为准，单独指定*/
+.free-info-con {
+    height: 450px;
+}
+
+.pay-info-con table, .free-info-con table {
+    width: 500px;
+/ / border: 1 px solid gray;
+    margin-left: 30px;
+    margin-top: 10px;
+    line-height: 24px;
+/ / 行距离
+}
+
+.pay-info-con td {
+/ / border: 1 px solid red;
+}
+
+.ad-con {
+    width: 563px;
+    height: 87px;
+    float: left;
+    background-color: white;
+}
+
+.pagenavi {
+    float: right;
+}
+
+/*用户背景图 */
+.user-bottom {
+    width: 780px;
+    height: 57px;
+    background-image: url("../img/bbg.jpg");
+    float: left;
+}
+.user-bottom span{
+    display: block;
+    margin-top: 20px;
+    margin-left: 60px;
+}
